@@ -1,5 +1,5 @@
 export const pwaCollection = {
-	name: "Progressive Webapps",
+	name: "촬영",
 	areas: [
 		{
 			name: "API's",
