@@ -1,7 +1,8 @@
 export const webcomponentsCollection = {
-	name: "Web Components",
+	name: "장비",
 	areas: [
 		{
+			name: "카메라",
 			skills: [
 				{
 					name: "Custom Elements",
