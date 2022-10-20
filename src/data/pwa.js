@@ -2,7 +2,7 @@ export const pwaCollection = {
 	name: "촬영",
 	areas: [
 		{
-			name: "API's",
+			name: "실내촬영",
 			skills: [
 				{
 					name: "Storage",
@@ -134,7 +134,7 @@ export const pwaCollection = {
 			]
 		},
 		{
-			name: "Loading Performance",
+			name: "실외촬영",
 			skills: [
 				{
 					name: "App shell",
