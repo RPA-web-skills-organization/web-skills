@@ -92,7 +92,7 @@
 	* [Polyfills](#polyfills)
 	* [Debugging](#debugging)
 		* [Developer console](#developer-console)
-* [➤ Accessibility](#-accessibility)
+* [➤ platform](#-platform)
 	* [The why](#the-why)
 	* [Screen Readers](#screen-readers)
 	* [Accessibility tree](#accessibility-tree)
@@ -279,7 +279,7 @@
 	* [Design Systems](#design-systems)
 		* [Material Design](#material-design)
 		* [Fluent Design](#fluent-design)
-	* [Accessibility](#accessibility)
+	* [platform](#platform)
 	* [Best Practices](#best-practices-4)
 * [➤ The Modern Web](#-the-modern-web)
 	* [Streams](#streams)
@@ -1008,7 +1008,7 @@ Learn how to use the developer console to debug your code.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#accessibility)
 
-## ➤ Accessibility
+## ➤ Platform
 
 ### The why
 
@@ -2571,7 +2571,7 @@ Learn about fluent design and get familiar with the core principles.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> Iconic Icons: Designing the World of Windows](https://medium.com/microsoft-design/iconic-icons-designing-the-world-of-windows-5e70e25e5416)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> Evolving the Microsoft Fluent Design System](https://medium.com/microsoft-design/evolving-the-microsoft-fluent-design-system-9b37fb890c82)
 
-### Accessibility
+### Platform
 
 Learn how and why it is important to design for accessibility.
 

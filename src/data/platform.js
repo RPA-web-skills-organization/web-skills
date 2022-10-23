@@ -1,4 +1,4 @@
-export const accessibilityCollection = {
+export const platformCollection = {
 	name: "Platform",
 	areas: [
 		{
