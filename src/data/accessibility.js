@@ -1,5 +1,5 @@
 export const accessibilityCollection = {
-	name: "Accessibility",
+	name: "Platform",
 	areas: [
 		{
 			skills: [
