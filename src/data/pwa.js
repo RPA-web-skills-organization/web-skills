@@ -5,7 +5,7 @@ export const pwaCollection = {
 			name: "실내촬영",
 			skills: [
 				{
-					name: "Storage",
+					name: "소형 마이크",
 					description: {
 						text: "Learn how to store data for your web app.",
 						links: [
@@ -19,7 +19,7 @@ export const pwaCollection = {
 					}
 				},
 				{
-					name: "Routing",
+					name: "스튜디오",
 					description: {
 						text: "Learn what routing means in single page applications.",
 						links: [
@@ -30,7 +30,7 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "History API",
+							name: "자택",
 							description: {
 								text: "Learn how to use the history API to add single page applicaiton routing to your web app.",
 								links: [
@@ -47,7 +47,7 @@ export const pwaCollection = {
 					]
 				},
 				{
-					name: "Service Workers",
+					name: "환경 세팅",
 					description: {
 						text: "Learn how to register a service worker to provide a rich native-like experience.",
 						links: [
@@ -65,7 +65,7 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "Offline first",
+							name: "카메라",
 							description: {
 								text: "Learn how to make your web app working offline with an offline first approach.",
 								links: [
@@ -83,7 +83,7 @@ export const pwaCollection = {
 							}
 						},
 						{
-							name: "Push notifications",
+							name: "조명",
 							description: {
 								text: "Learn how to add push notifications to your web app.",
 								links: [
