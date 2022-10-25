@@ -137,7 +137,7 @@ export const pwaCollection = {
 			name: "실외촬영",
 			skills: [
 				{
-					name: "App shell",
+					name: "촬영 시간",
 					description: {
 						text: "Learn how to use an app shell to provide an instant and reliable experience to users on repeat visits",
 						links: [
@@ -147,7 +147,7 @@ export const pwaCollection = {
 					}
 				},
 				{
-					name: "Render-Blocking Resources",
+					name: "카메라 모드(Auto Focus 등)",
 					description: {
 						text: "Learn about render-blocking resources and why they are bad for the user-experience.",
 						links: [
@@ -157,7 +157,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "Compression",
+					name: "카메라 구도",
 					description: {
 						text: "Learn how to minimize the overall download size by optimizing and compressing resources.",
 						links: [
@@ -171,7 +171,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "Performance metrics",
+					name: "빛",
 					description: {
 						text: "Learn why it is important to measure performance and which metrics you should prioritize.",
 						links: [
@@ -182,7 +182,7 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "Largest Contentful Paint",
+							name: "태양",
 							description: {
 								text: "Learn about Largest Contentful Paint and how it impacts the overall performance.",
 								links: [
@@ -193,7 +193,7 @@ export const pwaCollection = {
 							},
 						},
 						{
-							name: "Total Blocking Time",
+							name: "그림자",
 							description: {
 								text: "Learn about Total Blocking Time and how it impacts the overall performance.",
 								links: [
@@ -203,7 +203,7 @@ export const pwaCollection = {
 							},
 						},
 						{
-							name: "Time to Interactive",
+							name: "역광",
 							description: {
 								text: "Learn about Time to Interactive and how it impacts the overall performance.",
 								links: [
@@ -215,7 +215,7 @@ export const pwaCollection = {
 					]
 				},
 				{
-					name: "Lazy Loading",
+					name: "배경",
 					description: {
 						text: "Learn how to use lazy loading to lower the initial page payload and load time.",
 						links: [
@@ -226,7 +226,7 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "Dynamic Import",
+							name: "로케이션(현장 대여)",
 							description: {
 								text: "Learn how to use dynamic import to lazy load javascript.",
 								links: [
@@ -238,7 +238,7 @@ export const pwaCollection = {
 							},
 						},
 						{
-							name: "Offscreen images",
+							name: "자연스러움 혹은 자연 그 자체",
 							description: {
 								text: "Learn why offscreen images increase the load time and how to avoid them by lazy loading images.",
 								links: [
@@ -252,7 +252,7 @@ export const pwaCollection = {
 					]
 				},
 				{
-					name: "Critical Request Chains",
+					name: "소음",
 					description: {
 						text: "Learn about the critical request chains and how to find them in your web app.",
 						links: [
