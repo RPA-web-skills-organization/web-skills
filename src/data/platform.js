@@ -1,14 +1,14 @@
-export const accessibilityCollection = {
-	name: "Accessibility",
+export const platformCollection = {
+	name: "Platform",
 	areas: [
 		{
 			skills: [
 				{
-					name: "The why",
+					name: "Facebook",
 					description: {
 						text: "Learn what accessibility is and why it is important.",
 						links: [
-							["Google Devs - Accessibility Fundamentals", "https://developers.google.com/web/fundamentals/accessibility/"],
+							["Facebook - Accessibility Fundamentals", "https://facebook.com/"],
 							["A11ycasts with Rob Dodson", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"],
 							["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
 							["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
@@ -19,7 +19,7 @@ export const accessibilityCollection = {
 					}
 				},
 				{
-					name: "Screen Readers",
+					name: "Youtube",
 					description: {
 						text: "Learn about assistive technology such as screen readers that reads sections of the page aloud based on the current focus.",
 						links: [
@@ -31,7 +31,7 @@ export const accessibilityCollection = {
 					}
 				},
 				{
-					name: "Accessibility tree",
+					name: "WhatsApp",
 					description: {
 						text: "Learn about the accessibility tree and how assistive technology uses it.",
 						links: [
@@ -52,7 +52,7 @@ export const accessibilityCollection = {
 							}
 						},
 						{
-							name: "Accessible HTML",
+							name: "Instagram",
 							description: {
 								text: "Learn how to write HTML in such as way that assistive technology better understands it.",
 								links: [
@@ -78,7 +78,7 @@ export const accessibilityCollection = {
 							]
 						},
 						{
-							name: "Accessible CSS",
+							name: "TikTok",
 							description: {
 								text: "Learn how to write CSS in such as way that assistive technology better understands it.",
 								links: [
@@ -89,7 +89,7 @@ export const accessibilityCollection = {
 					]
 				},
 				{
-					name: "Accessible forms",
+					name: "Instagram",
 					description: {
 						text: "Learn how to build accessible forms that makes it usable to as many people as possible.",
 						links: [
@@ -99,7 +99,7 @@ export const accessibilityCollection = {
 					}
 				},
 				{
-					name: "UI States",
+					name: "TikTok",
 					description: {
 						text: "Learn how to make the state of each UI element clear.",
 						links: [
@@ -108,7 +108,7 @@ export const accessibilityCollection = {
 					}
 				},
 				{
-					name: "Keyboard Accessibility",
+					name: "Snapchat	",
 					description: {
 						text: "Learn how to make it easy for keyboard users to navigate your site.",
 						links: [
@@ -135,7 +135,7 @@ export const accessibilityCollection = {
 					]
 				},
 				{
-					name: "Accessible Colors",
+					name: "Pinterest",
 					description: {
 						text: "Learn how to select colors in such a way that users, including those with visual disabilities, can perceive the content on the page.",
 						links: [
@@ -147,7 +147,7 @@ export const accessibilityCollection = {
 					}
 				},
 				{
-					name: "Laws & Policies",
+					name: "Reddit",
 					description: {
 						text: "Learn about the governmental policies related to web accessibility.",
 						links: [
@@ -178,7 +178,75 @@ export const accessibilityCollection = {
 							}
 						}
 					]
-				}
+				},
+				{
+					name: "LinkedIn",
+					description: {
+						text: "Learn about the governmental policies related to web accessibility.",
+						links: [
+							["W3C - Laws & Policies", "https://www.w3.org/WAI/policies/"],
+							["Webaim - Laws around the world", "https://webaim.org/articles/laws/world/"],
+							["Webaim - Section 508", "https://webaim.org/standards/508/checklist"],
+							["Webaim - WCAG 2 Checklist", "https://webaim.org/standards/wcag/checklist"],
+							["A11Y.dev - Lawsuits", "https://a11y.dev/470-digital-accessibility-cases-were-filed-in-q3-2018/"],
+						]
+					},
+					skills: [
+						{
+							name: "Audits",
+							description: {
+								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
+								links: [
+									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
+									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
+									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
+									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
+									["Webaim - Wave", "http://wave.webaim.org/"],
+									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
+									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
+									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
+									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
+									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
+								]
+							}
+						}
+					]
+
+				},
+				{
+					name: "Twitter",
+					description: {
+						text: "Learn about the governmental policies related to web accessibility.",
+						links: [
+							["W3C - Laws & Policies", "https://www.w3.org/WAI/policies/"],
+							["Webaim - Laws around the world", "https://webaim.org/articles/laws/world/"],
+							["Webaim - Section 508", "https://webaim.org/standards/508/checklist"],
+							["Webaim - WCAG 2 Checklist", "https://webaim.org/standards/wcag/checklist"],
+							["A11Y.dev - Lawsuits", "https://a11y.dev/470-digital-accessibility-cases-were-filed-in-q3-2018/"],
+						]
+					},
+					skills: [
+						{
+							name: "Audits",
+							description: {
+								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
+								links: [
+									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
+									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
+									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
+									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
+									["Webaim - Wave", "http://wave.webaim.org/"],
+									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
+									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
+									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
+									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
+									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
+								]
+							}
+						}
+					]
+
+				},
 			]
 		}
 	]

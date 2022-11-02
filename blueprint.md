@@ -612,7 +612,7 @@ Learn how to use the developer console to debug your code.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com" alt="Logo" /> Youtube - 14 Must Know Chrome Dev Tools Tricks](https://www.youtube.com/watch?v=xkzDaKwinA8)
 
 
-## Accessibility
+## Platform
 
 ### The why
 
