@@ -1,10 +1,10 @@
 export const buildtoolsCollection = {
-	name: "Build tools",
+	name: "편집",
 	areas: [
 		{
 			skills: [
 				{
-					name: "Package Managers",
+					name: "자료편집",
 					description: {
 						text: "Learn about package managers and how they make managing dependencies easier.",
 						links: [
@@ -14,7 +14,7 @@ export const buildtoolsCollection = {
 					},
 					skills: [
 						{
-							name: "NPM",
+							name: "Photoshop",
 							description: {
 								text: "Learn about NPM and how it can be used to manage dependencies.",
 								links: [
@@ -26,7 +26,7 @@ export const buildtoolsCollection = {
 							},
 						},
 						{
-							name: "Yarn",
+							name: "After Effects",
 							description: {
 								text: "Learn about Yarn and how it can be used to manage dependencies.",
 								links: [
@@ -38,7 +38,7 @@ export const buildtoolsCollection = {
 					]
 				},
 				{
-					name: "Module Bundlers",
+					name: "편집 프로그램",
 					description: {
 						text: "Learn about module bundler and how they can help bundling your code.",
 						links: [
@@ -49,7 +49,7 @@ export const buildtoolsCollection = {
 					},
 					skills: [
 						{
-							name: "Rollup",
+							name: "Vegas",
 							description: {
 								text: "Learn how you can use Rollup to bundle your code.",
 								links: [
@@ -59,7 +59,7 @@ export const buildtoolsCollection = {
 							},
 						},
 						{
-							name: "Webpack",
+							name: "Premiere",
 							description: {
 								text: "Learn how you can use Webpack to bundle your code.",
 								links: [
@@ -69,7 +69,7 @@ export const buildtoolsCollection = {
 							},
 						},
 						{
-							name: "Parcel",
+							name: "Final cut",
 							description: {
 								text: "Learn how you can use Parcel to bundle your code.",
 								links: [
@@ -79,7 +79,7 @@ export const buildtoolsCollection = {
 							},
 						},
 						{
-							name: "Snowpack",
+							name: "Etc",
 							description: {
 								text: "Learn how Snowpack can replace the traditional app bundler during development.",
 								links: [
