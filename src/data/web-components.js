@@ -50,229 +50,35 @@ export const webcomponentsCollection = {
 							}
 						}
 					]
-				}
-			],
-				{
-					},
-					skills: [
-						{
-							name: "Shadow Parts",
-							description: {
-								text: "Learn how to style the inside of a shadow tree from outside of that Shadow Tree by using Shadow Parts.",
-								links: [
-									["Fergald - CSS Shadow ::part and ::theme", "https://github.com/fergald/docs/blob/master/explainers/css-shadow-parts-1.md"],
-									["MDN - ::part", "https://developer.mozilla.org/en-US/docs/Web/CSS/::part"],
-									["W3C - CSS Shadow Parts", "https://www.w3.org/TR/css-shadow-parts-1/"],
-									["Monica - ::part and ::theme, an explainer", "https://meowni.ca/posts/part-theme-explainer/"],
-									["Youtube - CSS Shadow Parts", "https://www.youtube.com/watch?v=yVrvOueeb3s"],
-									["Chrome Status - ::part and ::theme", "https://www.chromestatus.com/features/5763933658939392"]
-								]
-							}
-						},
-						{
-							name: "Slots",
-							description: {
-								text: "Learn how to compose Custom Elements by using slots.",
-								links: [
-									["Alligator.io - Composing Custom Elements", "https://alligator.io/web-components/composing-slots-named-slots/"],
-									["Javascript.info - Slots Composition", "https://javascript.info/slots-composition"],
-									["MDN - HTML <slot> element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot"],
-									["Component.kitchen - A history of the HTML slot element", "https://component.kitchen/blog/posts/a-history-of-the-html-slot-element"],
-								]
-							}
-						},
-						{
-							name: "Best practices",
-							description: {
-								text: "Get familiar with best practices when it comes to building Web Components.",
-								links: [
-									["Google Devs - Custom Element Best Practices", "https://developers.google.com/web/fundamentals/web-components/best-practices"],
-									["Webcomponents.org - Web Components Best Practices", "https://www.webcomponents.org/community/articles/web-components-best-practices"],
-									["mateusortiz - Web Components the Right Way", "https://github.com/mateusortiz/webcomponents-the-right-way"],
-									["dev.to - Making Web Components for Different Contexts", "https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed"]
-								]
-							}
-						}		
-					]
 				},
 				{
-					name: "야외촬영",
+					name: "마이크",
 					description: {
-						text: "Learn how to encapsulate your CSS using Shadow DOM.",
+						text: "마이크로폰(Microphone), 줄여서 마이크(Mic.)는 음향을 전기 신호로 변환하는 장치로, 센서 및 변환기(Transducer)의 일종",
 						links: [
-							["Google Devs - Shadow DOM", "https://developers.google.com/web/fundamentals/web-components/shadowdom"],
-							["MDN - Using Shadow DOM", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"],
-							["MDN - Shadow Tree", "https://developer.mozilla.org/en-US/docs/Glossary/Shadow_tree"],
-							["CSS Tricks - Encapsulating Style and Structure", "https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/"],
-							["itnext - Introduction to Web Components", "https://itnext.io/introduction-to-web-components-part-ii-shadow-dom-8d1d8e126332"],
-							["Monica - Shadow DOM: fast and encapsulated styles", "https://meowni.ca/posts/shadow-dom/"]
-
+							["로지텍 블루 마이크로폰 YETI X", "https://prod.danawa.com/info/?pcode=11897086&keyword=%EB%A1%9C%EC%A7%80%ED%85%8D+%EB%B8%94%EB%A3%A8+%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%ED%8F%B0+YETI+X&cate=1034314"],
+							["HyperX QuadCast S", "https://prod.danawa.com/info/?pcode=12902456&keyword=%ED%95%98%EC%9D%B4%ED%8D%BC%EC%97%91%EC%8A%A4+QuadCast+%EA%B2%8C%EC%9D%B4%EB%B0%8D+%EB%A7%88%EC%9D%B4%ED%81%AC&cate=1034314"],
+							["Razer SEIREN MINI", "https://prod.danawa.com/info/?pcode=13197293&keyword=Razer+Seiren+Mini+%EB%A0%88%EC%9D%B4%EC%A0%80+%EB%A7%88%EC%9D%B4%ED%81%AC&cate=1034314"],
+							["FIFINE Technology K678", "https://prod.danawa.com/info/?pcode=13330046&keyword=FIFINE+K678+%EC%BD%98%EB%8D%B4%EC%84%9C+%EB%A7%88%EC%9D%B4%ED%81%AC&cate=1034314"],
+							["앱코 HACKER MP300 게이밍", "https://prod.danawa.com/info/?pcode=9832332&keyword=ABKO+%ED%95%B4%EC%BB%A4+MP300&cate=1034314"]
 						]
 					},
 					skills: [
 						{
-							name: "Shadow Parts",
+							name: "ASMR",
 							description: {
-								text: "Learn how to style the inside of a shadow tree from outside of that Shadow Tree by using Shadow Parts.",
+								text: "자율 감각 쾌락 반응(Autonomous Sensory Meridian Response, ASMR)은 주로 청각을 중심으로 하는 시각적, 청각적, 촉각적, 후각적, 혹은 인지적 자극에 반응하여 나타나는, 형언하기 어려운 심리적 안정감이나 쾌감 따위의 감각적 경험을 일으킬 수 있는 마이크",
 								links: [
-									["Fergald - CSS Shadow ::part and ::theme", "https://github.com/fergald/docs/blob/master/explainers/css-shadow-parts-1.md"],
-									["MDN - ::part", "https://developer.mozilla.org/en-US/docs/Web/CSS/::part"],
-									["W3C - CSS Shadow Parts", "https://www.w3.org/TR/css-shadow-parts-1/"],
-									["Monica - ::part and ::theme, an explainer", "https://meowni.ca/posts/part-theme-explainer/"],
-									["Youtube - CSS Shadow Parts", "https://www.youtube.com/watch?v=yVrvOueeb3s"],
-									["Chrome Status - ::part and ::theme", "https://www.chromestatus.com/features/5763933658939392"]
+									["ZOOM H1N", "https://prod.danawa.com/info/?pcode=6415397&keyword=ZOOM+H1N&cate=12237393"],
+									["TASCAM DR-40X", "https://prod.danawa.com/info/?pcode=7377943&keyword=%ED%83%80%EC%8A%A4%EC%BA%A0&cate=12237393"],
+									["3DIO Free Space", "https://www.coupang.com/vp/products/6112955104?itemId=11533388687&vendorItemId=78808459563&q=3DIO+Free+Space&itemsCount=36&searchId=13bd6332b5134c4095bdc0e45c3cfa5c&rank=1&isAddedCart="],
+									["RODE M5 Matched Pair", "https://prod.danawa.com/info/?pcode=4846782&keyword=RODE+MATCHED&cate=1034314"],
+									["Neumann KU100 Dummy Head", "https://smartstore.naver.com/praiseland/products/6289087914?NaPm=ct%3Dl9yc850n%7Cci%3Dshopn%7Ctr%3Ddana%7Chk%3D97b364f1e2019fe0ad2c0ebd08b4a4514c512bab%7Ctrx%3Dundefined"]
 								]
 							}
-						},
-						{
-							name: "Slots",
-							description: {
-								text: "Learn how to compose Custom Elements by using slots.",
-								links: [
-									["Alligator.io - Composing Custom Elements", "https://alligator.io/web-components/composing-slots-named-slots/"],
-									["Javascript.info - Slots Composition", "https://javascript.info/slots-composition"],
-									["MDN - HTML <slot> element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot"],
-									["Component.kitchen - A history of the HTML slot element", "https://component.kitchen/blog/posts/a-history-of-the-html-slot-element"],
-								]
-							}
-						},
-						{
-							name: "Best practices",
-							description: {
-								text: "Get familiar with best practices when it comes to building Web Components.",
-								links: [
-									["Google Devs - Custom Element Best Practices", "https://developers.google.com/web/fundamentals/web-components/best-practices"],
-									["Webcomponents.org - Web Components Best Practices", "https://www.webcomponents.org/community/articles/web-components-best-practices"],
-									["mateusortiz - Web Components the Right Way", "https://github.com/mateusortiz/webcomponents-the-right-way"],
-									["dev.to - Making Web Components for Different Contexts", "https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed"]
-								]
-							}
-						}		
+						}
 					]
-				},
-				{
-					name: "Constructible Stylesheets",
-					description: {
-						text: "Learn how the Constructible Stylesheets proposal enables reusable styles when using shadow dom.",
-						links: [
-							["Google Devs - Constructable Stylesheets", "https://developers.google.com/web/updates/2019/02/constructable-stylesheets"],
-							["W3C - Constructable Stylesheet Objects", "https://wicg.github.io/construct-stylesheets/"],
-							["dev.to - Why Would Anyone Use Constructible Stylesheets", "https://dev.to/westbrook/why-would-anyone-use-constructible-stylesheets-anyways-19ng"],
-							["Benjamin Farrel - Adopt a Design System", "https://medium.com/swlh/adopt-a-design-system-inside-your-web-components-with-constructable-stylesheets-dd24649261e"],
-							["WICG - Constructable Stylesheet Objects", "https://github.com/WICG/construct-stylesheets/blob/gh-pages/explainer.md"],
-							["Chrome Status - Constructible Stylesheets", "https://www.chromestatus.com/feature/5394843094220800"]
-						]
-					}
-				},
-				{
-					name: "Form Participation",
-					description: {
-						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
-						links: [
-							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
-							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
-							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"],
-							["web.dev - More capable form controls", "https://web.dev/more-capable-form-controls/"],
-							["W3C - Creating a form-associated custom element", "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example"],
-						]
-					}
-				}
-			]
-		},
-		{
-			name: "조명기기",
-			skills: [
-				{
-					name: "Form Participation",
-					description: {
-						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
-						links: [
-							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
-							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
-							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"],
-							["web.dev - More capable form controls", "https://web.dev/more-capable-form-controls/"],
-							["W3C - Creating a form-associated custom element", "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example"],
-						]
-					}
-				}
-			]
-		},
-		{
-			name: "마이크",
-			skills: [
-				{
-					name: "Form Participation",
-					description: {
-						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
-						links: [
-							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
-							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
-							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"],
-							["web.dev - More capable form controls", "https://web.dev/more-capable-form-controls/"],
-							["W3C - Creating a form-associated custom element", "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example"],
-						]
-					}
-				}
-			]
-		},
-		{
-			name: "조명기기",
-			skills: [
-				{
-					name: "Form Participation",
-					description: {
-						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
-						links: [
-							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
-							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
-							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"],
-							["web.dev - More capable form controls", "https://web.dev/more-capable-form-controls/"],
-							["W3C - Creating a form-associated custom element", "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example"],
-						]
-					}
-				}
-			]
-		},
-		{
-			name: "컴퓨터",
-			skills: [
-				{
-					name: "Form Participation",
-					description: {
-						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
-						links: [
-							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
-							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
-							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"],
-							["web.dev - More capable form controls", "https://web.dev/more-capable-form-controls/"],
-							["W3C - Creating a form-associated custom element", "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example"],
-						]
-					}
-				}
-			]
-		},
-		{
-			name: "기타",
-			skills: [
-				{
-					name: "Form Participation",
-					description: {
-						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
-						links: [
-							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
-							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
-							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"],
-							["web.dev - More capable form controls", "https://web.dev/more-capable-form-controls/"],
-							["W3C - Creating a form-associated custom element", "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example"],
-						]
-					}
-				}
+				}					
 			]
 		}
 	]
