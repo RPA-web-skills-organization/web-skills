@@ -78,7 +78,18 @@ export const webcomponentsCollection = {
 							}
 						}
 					]
-				}					
+				},
+				{
+					name: "조명",
+					description: {
+						text: "조명의 종류와 배치에 따른 효과가 다름.",
+						links: [
+							["코멧 탁상용 링라이트", "https://www.coupang.com/vp/products/2145215943?itemId=3642565408&vendorItemId=71628088174&src=1032034&spec=10305201&addtag=400&ctag=2145215943&lptag=I3642565408&itime=20221102000220&pageType=PRODUCT&pageValue=2145215943&wPcid=16672917945289351501072&wRef=prod.danawa.com&wTime=20221102000220&redirect=landing&isAddedCart="],
+							["유쾌한생각 PL-2SET-43LH", "https://prod.danawa.com/info/?pcode=7298734&keyword=%EC%9C%A0%EC%BE%8C%ED%95%9C%EC%83%9D%EA%B0%81+%EB%A3%A9%EC%8A%A4%ED%8C%A8%EB%93%9C43H+LED%EC%A1%B0%EB%AA%85&cate=12237571"],
+							["한빛랜드 큐브라이트33 LED조명", "https://prod.danawa.com/info/?pcode=15775376&keyword=%ED%81%90%EB%B8%8C%EB%9D%BC%EC%9D%B4%ED%8A%B8+led+%EC%A1%B0%EB%AA%85&cate=12237571"]
+						]
+					}
+				}								
 			]
 		}
 	]
