@@ -145,6 +145,99 @@ export const webcomponentsCollection = {
 					}
 				}								
 			]
+		},
+		{
+			name: "야외용",
+			skills: [
+				{
+					name: "액션캠",
+					description: {
+						text: "스포츠, 레저, 액션 등에서 사용되는 초소형 광각 캠코더 제품군을 이르는 용어. 이 쪽 시장을 개척한 고프로가 인지도와 시장을 꽉 잡고 있고, 그 뒤를 소니 액션캠이 뒤쫒고 있으며 다른 전자기기 회사들이 이 시장에 발을 들이고 있는 상태. 저가형 액션캠 시장인 짭프로 역시 치열하게 싸우며 발전하고 있다.",
+						links: [
+							["정보글", "https://plan.danawa.com/info/index.php?nPlanSeq=1528"],
+							["고프로 히어로7 블랙", "https://prod.danawa.com/info/?pcode=6483021"],
+							["SONY FDR-X3000R", "https://prod.danawa.com/info/?pcode=4550063"],
+							["DJI 오즈모 포켓", "https://prod.danawa.com/info/?pcode=6760594"]
+						]
+					}											
+				},
+				{
+					name: "마이크",
+					description: {
+						text: "마이크로폰(Microphone), 줄여서 마이크(Mic.)는 음향을 전기 신호로 변환하는 장치로, 센서 및 변환기(Transducer)의 일종",
+						links: [
+							["정보글1", "https://m.blog.naver.com/sound8949/221472278289"],
+							["정보글2", "https://little-foot-try.tistory.com/entry/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EA%B0%80%EC%84%B1%EB%B9%84-%EB%AC%B4%EC%84%A0-%ED%95%80%EB%A7%88%EC%9D%B4%ED%81%AC-%EC%B6%94%EC%B2%9C"],
+							["RODE VideoMic Me-L", "https://prod.danawa.com/info/?pcode=6556486&keyword=VIDEOMIC+ME&cate=1034314"],
+							["로데 비디오마이크 GO", "https://prod.danawa.com/info/?pcode=3184086&keyword=VideoMic+GO&cate=12237570"],
+							["주닉스 ZNS-D21CT", "https://prod.danawa.com/info/?pcode=16317521&keyword=%ED%95%80%EB%A7%88%EC%9D%B4%ED%81%AC&cate=1034314"]
+						]
+					}
+				},
+				{
+					name: "짐벌",
+					description: {
+						text: "짐벌, 김볼은 카메라로 동영상이나 사진을 촬영할 때, 결과물의 흔들림을 최소화하기 위해 사용되는 장치이다. 보통 내부에 자이로 센서와 가속도 센서가 있어, 움직이는 반대 방향으로 본체를 기울여 결과물의 흔들림을 최소화시킨다.",
+						links: [
+							["정보글", "https://www.hankookilbo.com/News/Read/A2020102722040003017"],
+							["지윤텍 스무스 Q3 스마트폰 짐벌", "https://prod.danawa.com/info/?pcode=14907656&keyword=%EC%A7%80%EC%9C%A4%ED%85%8D+%EC%8A%A4%EB%AC%B4%EC%8A%A4+Q3&cate=12237569"],
+							["DJI 오즈모 모바일5", "https://prod.danawa.com/info/?pcode=15247895&keyword=DJI+om5&cate=12237569"],
+							["넥스트 NEXT-G2 3축 짐벌", "https://prod.danawa.com/info/?pcode=8852462&keyword=%EB%84%A5%EC%8A%A4%ED%8A%B8+3%EC%B6%95+%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0+%EC%A7%90%EB%B2%8C+NEXT-G2&cate=12237569"]
+						]
+					}
+				},
+				{
+					name: "기타",
+					description: {
+						text: "저렴한 올인원 아이템",
+						links: [
+							["오토케 유튜버 야외방송 촬영세트", "https://www.drgo.pro/bbs/board.php?bo_table=lec&wr_id=28"],
+						]
+					}
+				}								
+			]
+		},
+		{
+			name: "그 외",
+			skills: [
+				{
+					name: "크로마키",
+					description: {
+						text: "Chroma Key. 화면 합성 등의 특수 효과를 이용하기 위해 이용하는 배경. 흔히 초록색과 파란색을 사용하여 그린 스크린, 블루 스크린이라고도 한다. 촬영 과정에서 배우가 단색 배경 앞에서 연기를 하고 후편집 과정에서 같은 색으로 찍힌 부분을 다른 배경으로 바꾸면 바꾼 배경에서 연기한 것과 같은 효과를 낼 수 있다.",
+						links: [
+							["정보글", "https://kpoplz.com/%ED%81%AC%EB%A1%9C%EB%A7%88%ED%82%A4-%EC%8A%A4%ED%81%AC%EB%A6%B0-%EA%B5%AC%EB%A7%A4%EB%A5%BC-%EC%9B%90%ED%95%9C%EB%8B%A4%EB%A9%B4-%EC%B6%94%EC%B2%9C%ED%95%B4%EB%B4%85%EB%8B%88%EB%8B%A4/"],
+							["본젠 VDR-M202 크로마키 롤스크린", "https://prod.danawa.com/info/?pcode=14052095&keyword=%EB%B3%B8%EC%A0%A0+%ED%81%AC%EB%A1%9C%EB%A7%88%ED%82%A4&cate=12237571"],
+							["비바채 크로마키", "https://www.coupang.com/vp/products/1113241614?itemId=2077383552&vendorItemId=76113437701&src=1139000&spec=10799999&addtag=400&ctag=1113241614&lptag=AF3875760&itime=20221102013200&pageType=PRODUCT&pageValue=1113241614&wPcid=16672917945289351501072&wRef=kpoplz.com&wTime=20221102013200&redirect=landing&traceid=V0-183-7b62da392db22f60&placementid=&clickBeacon=&campaignid=&contentcategory=&imgsize=&pageid=&deviceid=&token=&contenttype=&subid=&impressionid=&campaigntype=&requestid=&contentkeyword=&subparam="],
+							["크로마키 스크린 원터치", "https://www.coupang.com/vp/products/5380350711?itemId=7989934290&vendorItemId=75278801495&src=1139000&spec=10799999&addtag=400&ctag=5380350711&lptag=AF3875760&itime=20221102013225&pageType=PRODUCT&pageValue=5380350711&wPcid=16672917945289351501072&wRef=kpoplz.com&wTime=20221102013225&redirect=landing&traceid=V0-183-e3e23e9cce940469&placementid=&clickBeacon=&campaignid=&contentcategory=&imgsize=&pageid=&deviceid=&token=&contenttype=&subid=&impressionid=&campaigntype=&requestid=&contentkeyword=&subparam=&isAddedCart="]
+						]
+					}											
+				},
+				{
+					name: "스트림덱",
+					description: {
+						text: "영상 제작에 많은 시간을 할애해야 하는 콘텐츠 제작자들을 위해 꼭 필요한 기능을 버튼 하나에 저장, 작업 시간 단축과 효율을 높여주는 스트리밍 및 비디오 제작도구. 방송 중에도 특정 프로그램을 바로 여는 등으로 사용",
+						links: [
+							["정보글", "https://qoowoona.com/%EC%8A%A4%ED%8A%B8%EB%A6%BC%EB%8D%B1-20220727/"],
+							["엘가토 STREAM DECK MK 2", "https://www.coupang.com/vp/products/6291495813?itemId=12965156088&src=1139000&spec=10799999&addtag=400&ctag=6291495813&lptag=AF5012033&itime=20221102013347&pageType=PRODUCT&pageValue=6291495813&wPcid=16672917945289351501072&wRef=qoowoona.com&wTime=20221102013347&redirect=landing&traceid=V0-183-5aec3a17905136ae&placementid=&clickBeacon=&campaignid=&contentcategory=&imgsize=&pageid=&deviceid=&token=&contenttype=&subid=&impressionid=&campaigntype=&requestid=&contentkeyword=&subparam=&isAddedCart="],
+							["엘가토 6버튼 컨트롤러 STREAM DECK MINI", "hhttps://www.coupang.com/vp/products/1254826184?itemId=2255007011&src=1139000&spec=10799999&addtag=400&ctag=1254826184&lptag=AF5012033&itime=20221102013408&pageType=PRODUCT&pageValue=1254826184&wPcid=16672917945289351501072&wRef=qoowoona.com&wTime=20221102013408&redirect=landing&traceid=V0-183-d97b1f9c2f80b169&placementid=&clickBeacon=&campaignid=&contentcategory=&imgsize=&pageid=&deviceid=&token=&contenttype=&subid=&impressionid=&campaigntype=&requestid=&contentkeyword=&subparam=&isAddedCart="],
+							["엘가토 STREAM DECK PEDAL", "https://www.coupang.com/vp/products/6374859475?itemId=13518198719&src=1139000&spec=10799999&addtag=400&ctag=6374859475&lptag=AF5012033&itime=20221102013431&pageType=PRODUCT&pageValue=6374859475&wPcid=16672917945289351501072&wRef=qoowoona.com&wTime=20221102013431&redirect=landing&traceid=V0-183-be6adad657b08696&placementid=&clickBeacon=&campaignid=&contentcategory=&imgsize=&pageid=&deviceid=&token=&contenttype=&subid=&impressionid=&campaigntype=&requestid=&contentkeyword=&subparam=&isAddedCart="]
+						]
+					}
+				},
+				{
+					name: "방음부스",
+					description: {
+						text: "외부나 내부의 특정 음원안에서 나오는 소리의 음압을 감소시켜, 소리수신기로 들어가지않도록 소리를 차단하는 방(room). 방송용은 커스텀 형태가 대다수이므로 전문업체 사이트 소개",
+						links: [
+							["정보글", "https://blog.naver.com/juno201507/221686412380"],
+							["하모니스", "https://harmonis.co.kr/"],
+							["바른방음부스", "http://www.barunsp.co.kr/"],
+							["한국방음", "http://www.knsp.co.kr/"],
+							["조용한청년들", "https://www.hush.kr/"]
+						]
+					}
+				}
+			]
 		}
 	]
 }
