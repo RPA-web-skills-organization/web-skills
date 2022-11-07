@@ -1,4 +1,4 @@
-export const webcomponentsCollection = {
+export const equipmentCollection = {
 	name: "장비",
 	areas: [
 		{
