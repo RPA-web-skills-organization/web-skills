@@ -95,42 +95,6 @@ export const pwaCollection = {
 						},
 					]
 				},
-				{
-					name: "Web App manifest",
-					description: {
-						text: "Learn how to tell the browser about your web app and how it should behave when 'installed' by creating a web app manifest.",
-						links: [
-							["Google Devs - Web App Manifest", "https://developers.google.com/web/fundamentals/web-app-manifest/"],
-							["web.dev - Add a web app manifest", "https://web.dev/add-manifest/"],
-							["W3C - Web App Manifest", "https://www.w3.org/TR/appmanifest/"],
-							["MDN - How to make PWAs installable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs"],
-						]
-					}
-				},
-				{
-					name: "Add to homescreen",
-					description: {
-						text: "Learn how to make your web app installable.",
-						links: [
-							["web.dev - Installable", "https://web.dev/installable"],
-							["Google Devs - App Install Banners", "https://developers.google.com/web/fundamentals/app-install-banners/"],
-							["MDN - Add to Home screen", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen"]
-						]
-					}
-				},
-				{
-					name: "Pointer Events",
-					description: {
-						text: "Learn how to handle inputs from pointing devices such as a mouse, pen/stylus or touch.",
-						links: [
-							["MDN - Pointer Events", "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"],
-							["Google Devs - Add Touch to Your Site", "https://developers.google.com/web/fundamentals/design-and-ux/input/touch"],
-							["Google Devs - Pointing the Way Forward", "https://developers.google.com/web/updates/2016/10/pointer-events"],
-							["Google Devs - Touch Action Options", "https://developers.google.com/web/updates/2016/10/touch-action"],
-							["W3C - Pointer Events", "https://www.w3.org/TR/pointerevents/"]
-						]
-					}
-				}
 			]
 		},
 		{
