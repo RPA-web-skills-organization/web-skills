@@ -1,212 +1,72 @@
 export const platformCollection = {
 	name: "Platform",
 	areas: [
-		{
+		{	
+			// SNS 중심의 플랫폼
+			name: "SNS 중심의 플랫폼",
 			skills: [
-				{
-					name: "Facebook",
+				{											
+					name:"Facebook",
 					description: {
-						text: "Learn what accessibility is and why it is important.",
+						text: "Facebook 계정을 만들거나 로그인하세요. 친구, 가족, 아는 사람들과 사진과 동영상을 공유하고 메시지를 보내며 서로의 소식을 확인할 수 있습니다.",
 						links: [
-							["Facebook - Accessibility Fundamentals", "https://facebook.com/"],
-							["A11ycasts with Rob Dodson", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"],
-							["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
-							["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
-							["Abilitynet - Why Accessibility Matters", "https://www.abilitynet.org.uk/why-accessibility-matters"],
-							["Udacity - Web Accessibility", "https://www.udacity.com/course/web-accessibility--ud891"],
-							["Youtube - Headings, Landmarks, and Tabs", "https://www.youtube.com/watch?v=HE2R86EZPMA"],
-						]
-					}
+							["Facebook - 페이스북", "https://facebook.com/"],
+							["페이스북 위키디피아 - 페이스북 정보", "https://ko.wikipedia.org/wiki/%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%B6%81"],
+							["페이스북 가이드 - 페이스북이 사용하기 어려운 경우", "https://www.youtube.com/watch?v=lFMhdZkJK4g"],
+						],					
+					},
+						skills: [
+							{
+								name: "FaceBook 서비스 약관",
+								description: {
+									text: "페이스북의 규정 및 서비스 약관을 확인하세요. 중요할지도 모릅니다!",
+									links: [
+										["페이스북 서비스 약관 - 페이스북의 서비스약관", "https://ko-kr.facebook.com/terms.php"],
+										["페이스북 개인정보 보호 규정- Hiding and updating content", "https://ko-kr.facebook.com/business/GDPR"],
+										],
+									}
+								},
+							]
+										
 				},
 				{
-					name: "Youtube",
+					name: "Instagram",
 					description: {
-						text: "Learn about assistive technology such as screen readers that reads sections of the page aloud based on the current focus.",
+						text: "인스타그램에서 자신을 다른 사람에게 보여주세요!",
 						links: [
-							["The A11Y Project - Screen Reader Myths", "https://a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/"],
-							["The A11Y Project - NVDA Screen Reader", "https://a11yproject.com/posts/getting-started-with-nvda/"],
-							["The A11Y Project - OS X Voiceover", "https://a11yproject.com/posts/getting-started-with-voiceover/"],
-							["Webaim - Screen Reader Survey", "https://webaim.org/projects/screenreadersurvey7/"]
-						]
-					}
-				},
-				{
-					name: "WhatsApp",
-					description: {
-						text: "Learn about the accessibility tree and how assistive technology uses it.",
-						links: [
-							["Google Devs - The Accessibility Tree", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree"]
+							["Instagram - 인스타그램은 여러분을 환영합니다", "https://www.instagram.com"],
 						]
 					},
 					skills: [
 						{
-							name: "ARIA",
+							name: "Instagram 서비스 약관",
 							description: {
 								text: "Learn how to use ARIA descriptions an labels to help assistive technology understanding your website.",
 								links: [
-									["Google Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
-									["Google Devs - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],
+									["Instagram 서비스 약관 - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
+									["Instagram 법률 고지 - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],
 									["The A11Y Project - ARIA States", "https://a11yproject.com/posts/ARIA-states/"],
 									["The A11Y Project - ARIA Properties", "https://a11yproject.com/posts/ARIA-properties/"],
 								]
 							}
 						},
-						{
-							name: "Instagram",
-							description: {
-								text: "Learn how to write HTML in such as way that assistive technology better understands it.",
-								links: [
-									["Google Devs - Introduction to Semantics", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/"],
-									["MDN - Accessibility HTML", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML"],
-									["Webaim - Skip navigation", "https://webaim.org/techniques/skipnav/"],
-									["w3c - Headings", "https://www.w3.org/WAI/tutorials/page-structure/headings/"],
-									["Freecodecamp - Semantic Elements", "https://guide.freecodecamp.org/html/html5-semantic-elements/"]
-								]
-							},
-							skills: [
-								{
-									name: "Alt text",
-									description: {
-										text: "Learn how to use the alt attribute to provide a useful text alternative to this image.",
-										links: [
-											["Google Devs - Text Alternatives for Images", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/text-alternatives-for-images"],
-											["Webaim - Accessible Images", "https://webaim.org/techniques/images/"],
-											["Webaim - Alternative text", "https://webaim.org/techniques/alttext/"],
-										]
-									}
-								}
-							]
-						},
-						{
-							name: "TikTok",
-							description: {
-								text: "Learn how to write CSS in such as way that assistive technology better understands it.",
-								links: [
-									["Webaim - CSS", "https://webaim.org/techniques/css/"]
-								]
-							}
-						},
-					]
-				},
-				{
-					name: "Instagram",
-					description: {
-						text: "Learn how to build accessible forms that makes it usable to as many people as possible.",
-						links: [
-							["Webaim - Forms", "https://webaim.org/techniques/forms/"],
-							["Itnext - Form Accessibility Gudie", "https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14"]
-						]
-					}
-				},
-				{
-					name: "TikTok",
-					description: {
-						text: "Learn how to make the state of each UI element clear.",
-						links: [
-							["Google Devs - Accessible Styles", "https://developers.google.com/web/fundamentals/accessibility/accessible-styles"]
-						]
-					}
-				},
-				{
-					name: "Snapchat	",
-					description: {
-						text: "Learn how to make it easy for keyboard users to navigate your site.",
-						links: [
-							["Webaim - Keyboard", "https://webaim.org/techniques/keyboard/"],
-							["Smashing Magazine - Web with just a keyboard", "https://www.smashingmagazine.com/2018/07/web-with-just-a-keyboard/"]
-						]
-					},
-					skills: [
-						{
-							name: "Focus",
-							description: {
-								text: "Learn how to create a sensible tab order and how to make it easy for the users to locate the currently focused element.",
-								links: [
-									["web.dev - Control focus with tabindex", "https://web.dev/control-focus-with-tabindex/"],
-									["Google Devs - Focus", "https://developers.google.com/web/fundamentals/accessibility/focus/"],
-									["Google Devs - Dom Order Matters", "https://developers.google.com/web/fundamentals/accessibility/focus/dom-order-matters"],
-									["Google Devs - Using Tabindex", "https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex"],
-									["Google Devs - Track Focus", "https://developers.google.com/web/tools/chrome-devtools/accessibility/focus"],
-									["MDN - :focus-visible", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible"],
-									["MDN - :focus-within", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within"]
-								]
-							}
-						}
-					]
-				},
-				{
-					name: "Pinterest",
-					description: {
-						text: "Learn how to select colors in such a way that users, including those with visual disabilities, can perceive the content on the page.",
-						links: [
-							["Webaim - Contrast and Color", "https://webaim.org/articles/contrast/"],
-							["The A11Y Project - Check contrast", "https://a11yproject.com/posts/check-contrast-with-mobile-device/"],
-							["The A11Y Project - What is color contrast?", "https://a11yproject.com/posts/what-is-color-contrast/"],
-							["Designing accessible color systems", "https://stripe.com/en-dk/blog/accessible-color-systems"],
-						]
-					}
-				},
-				{
-					name: "Reddit",
-					description: {
-						text: "Learn about the governmental policies related to web accessibility.",
-						links: [
-							["W3C - Laws & Policies", "https://www.w3.org/WAI/policies/"],
-							["Webaim - Laws around the world", "https://webaim.org/articles/laws/world/"],
-							["Webaim - Section 508", "https://webaim.org/standards/508/checklist"],
-							["Webaim - WCAG 2 Checklist", "https://webaim.org/standards/wcag/checklist"],
-							["A11Y.dev - Lawsuits", "https://a11y.dev/470-digital-accessibility-cases-were-filed-in-q3-2018/"],
-						]
-					},
-					skills: [
-						{
-							name: "Audits",
-							description: {
-								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
-								links: [
-									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
-									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
-									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
-									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
-									["Webaim - Wave", "http://wave.webaim.org/"],
-									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
-									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
-									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
-									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
-									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
-								]
-							}
-						}
 					]
 				},
 				{
 					name: "LinkedIn",
 					description: {
-						text: "Learn about the governmental policies related to web accessibility.",
+						text: "취업과 관련된 커뮤니티입니다. 잘 활용한다면 큰 도움이 될 것입니다.",
 						links: [
-							["W3C - Laws & Policies", "https://www.w3.org/WAI/policies/"],
-							["Webaim - Laws around the world", "https://webaim.org/articles/laws/world/"],
-							["Webaim - Section 508", "https://webaim.org/standards/508/checklist"],
-							["Webaim - WCAG 2 Checklist", "https://webaim.org/standards/wcag/checklist"],
-							["A11Y.dev - Lawsuits", "https://a11y.dev/470-digital-accessibility-cases-were-filed-in-q3-2018/"],
+							["LinkedIn - 프로들을 위한 커뮤니티", "https://linkedin.com/"],
 						]
 					},
 					skills: [
 						{
-							name: "Audits",
+							name: "LinkedIn 서비스 약관",
 							description: {
-								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
+								text: "LinkedIn 서비스 약관 및 법률 관련",
 								links: [
-									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
-									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
-									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
-									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
-									["Webaim - Wave", "http://wave.webaim.org/"],
-									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
-									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
-									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
-									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
-									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
+									["LinkedIn 서비스 약관 - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
 								]
 							}
 						}
@@ -216,38 +76,167 @@ export const platformCollection = {
 				{
 					name: "Twitter",
 					description: {
-						text: "Learn about the governmental policies related to web accessibility.",
+						text: "트위터는 실시간으로 다양한 정보를 많은 사람들과 공유합니다!",
 						links: [
-							["W3C - Laws & Policies", "https://www.w3.org/WAI/policies/"],
-							["Webaim - Laws around the world", "https://webaim.org/articles/laws/world/"],
-							["Webaim - Section 508", "https://webaim.org/standards/508/checklist"],
-							["Webaim - WCAG 2 Checklist", "https://webaim.org/standards/wcag/checklist"],
-							["A11Y.dev - Lawsuits", "https://a11y.dev/470-digital-accessibility-cases-were-filed-in-q3-2018/"],
+							["Twitter - 트위터를 통해 다양한 사람들과 소통해보세요!", "https://twitter.com/"],
+						],
+					},
+					skills: [
+						{
+							name: "Twitter 서비스 약관",
+							description: {
+								text: "Twitter 서비스 약관을 참고하세요. 언젠가 도움이 될 것입니다!",
+								links: [
+									["Twitter 서비스 약관 - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
+								]
+							}
+						},
+					]
+				},
+			],
+			
+		},		
+		{
+		// 동영상 위주의 플랫폼
+		name: "동영상 중심의 플랫폼",
+		skills: [
+			{
+			name: "Youtube",
+			description: {
+				text: " YouTube에서 마음에 드는 동영상과 음악을 감상하고, 직접 만든 콘텐츠를 업로드하여 친구, 가족뿐 아니라 전 세계 사람들과 콘텐츠를 공유할 수 있습니다.",
+				links: [
+					["유튜브 - 대표적인 동영상 플랫폼", "https://www.youtube.com/"],
+				]
+			},
+			skills: [
+				{
+					name: "Youtube 서비스 약관",
+					description: {
+						text: "유튜브의 서비스 약관을 확인하세요. 언젠가 도움이 될 것 입니다.",
+						links: [
+							["Google Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
+							["Google Devs - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],
+							["The A11Y Project - ARIA States", "https://a11yproject.com/posts/ARIA-states/"],
+							["The A11Y Project - ARIA Properties", "https://a11yproject.com/posts/ARIA-properties/"],
+								]
+							}
+						},
+					]
+				},
+				{
+					name: "TikTok",
+					description: {
+						text: "당신의 모든 것을 존중",
+						links: [
+							["TikTok - 쇼츠 동영상으로 다른 사람에게 재미를 선사하세요!", "https://www.tiktok.com/"]
 						]
 					},
 					skills: [
 						{
-							name: "Audits",
+							name: "TikTok 서비스 약관",
 							description: {
-								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
+								text: "Tiktok의 서비스 약관을 확인하세요. 언젠가 도움이 될 것 입니다.",
 								links: [
-									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
-									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
-									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
-									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
-									["Webaim - Wave", "http://wave.webaim.org/"],
-									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
-									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
-									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
-									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
-									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
+									["TikTok 서비스 약관 - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
+								]
+							}
+						},
+					]
+				},
+			]
+			 
+		},
+		{
+			// 포토그라피 중심의 플랫폼
+			name: "포토그라피 중심의 플랫폼",
+			skills: [
+				{
+					name: "Pinterest",
+					description: {
+						text: "많은 사람들과 정보를 포토그라피로 공유해보세요!",
+						links: [
+							["Pinterest - 포토그라피 중심의 대표적인 플랫폼.", "https://www.pinterest.co.kr/"],
+						]
+					},
+					skills: [
+						{
+							name: "Pinterest 서비스 약관",
+							description: {
+								text: "Reddit의 서비스 약관을 확인하세요. 언젠가 도움이 될 것 입니다.",
+								links: [
+									["Pinterest 서비스 약관	 - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
+								]
+							}
+						},
+					]
+				},
+			]
+		},
+		{
+			// 커뮤니티 중심의 플랫폼
+			name: "커뮤니티 중심의 플랫폼",
+			skills: [
+				{
+					name: "Reddit",
+					description: {
+						text: "미국의 대표적인 커뮤니티 사이트입니다. 영미권 사람들과 다양한 의사소통을 해보세요!",
+						links: [
+							["Reddit - 다양한 주제를 이용해 사람들과 소통하세요.", "https://www.reddit.com/"],
+						]
+					},
+					skills: [
+						{
+							name: "Reddit 서비스 약관",
+							description: {
+								text: "Reddit의 서비스 약관을 확인하세요. 언젠가 도움이 될 것 입니다.",
+								links: [
+									["Reddit - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
 								]
 							}
 						}
 					]
-
 				},
-			]
-		}
+				{
+					name: "인벤",
+					description: {
+						text: "대한민국의 게임 전문 웹진이자 커뮤니티",
+						links: [
+							["인벤 - 다양한 게임 정보를 이곳에서 알아보세요!", "https://www.inven.co.kr/"],
+						]
+					},
+					skills: [
+						{
+							name: "인벤 서비스 약관",
+							description: {
+								text: "인벤의 서비스 약관을 확인하세요. 언젠가 도움이 될 것 입니다.",
+								links: [
+									["Google Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
+								]
+							}
+						},
+					]
+				},
+				{
+					name: "디시인사이드",
+					description: {
+						text: "대한민국 최대 커뮤니티 디시인사이드입니다.",
+						links: [
+							["디시인사이드 - 다양한 주제를 통해 다른 사람과 소통해보세요!", "https://www.dcinside.com/"],
+						]
+					},
+					skills: [
+						{
+							name: "디시인사이드 서비스 약관",
+							description: {
+								text: "디시인사이드의 서비스 약관을 확인하세요. 언젠가 도움이 될 것 입니다!",
+								links: [
+									["디시인사이드 서비스약관 - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
+								]
+							}
+						}
+					]
+				},
+			]	
+		},
 	]
 };
