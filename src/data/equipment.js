@@ -187,7 +187,7 @@ export const equipmentCollection = {
 					}
 				},
 				{
-					name: "기타",
+					name: "올인원",
 					description: {
 						text: "저렴한 올인원 아이템",
 						links: [
@@ -198,7 +198,7 @@ export const equipmentCollection = {
 			]
 		},
 		{
-			name: "그 외",
+			name: "기타",
 			skills: [
 				{
 					name: "크로마키",
